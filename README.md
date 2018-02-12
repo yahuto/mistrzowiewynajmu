@@ -1,3 +1,2 @@
 # mistrzowiewynajmu
 # yoyo
-# ktoś
