@@ -70,7 +70,7 @@ namespace MistrzowieWynajmu.Migrations
                         .Annotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn),
                     Name = table.Column<string>(nullable: true),
                     Phone = table.Column<string>(nullable: true),
-                    Surmane = table.Column<string>(nullable: true)
+                    Surname = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

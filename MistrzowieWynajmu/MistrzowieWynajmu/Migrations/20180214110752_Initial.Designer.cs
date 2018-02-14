@@ -204,7 +204,7 @@ namespace MistrzowieWynajmu.Migrations
 
                     b.Property<string>("Phone");
 
-                    b.Property<string>("Surmane");
+                    b.Property<string>("Surname");
 
                     b.HasKey("OwnerId");
 
