@@ -16,7 +16,7 @@ namespace MistrzowieWynajmu.Models
         public bool Refrigerator { get; set; }
         public bool Iron { get; set; }
 
-        public virtual int AddressIs { get; set; }
+        public virtual int AddressId { get; set; }
         public virtual Address Address { get; set; }
 
         public virtual int OwnerId { get; set; }
